@@ -3,7 +3,7 @@
 **MD5 Converter** is a simple, fast, and privacy-friendly online tool to generate MD5 hashes instantly.  
 It updates live as you type and works entirely in your browser — no data is sent anywhere.
 
-🌐 **Live Tool:** [ot.itisuniqueofficial.com/md5-converter](https://ot.itisuniqueofficial.com/md5-converter)
+🌐 **Live Tool:** [ot.itisuniqueofficial.com/md5-converter/](https://ot.itisuniqueofficial.com/md5-converter/)
 
 ---
 
