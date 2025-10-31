@@ -1,0 +1,91 @@
+@import url('../styles.css');
+
+/* Additional styles for MD5 Converter */
+.tool-box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#inputText {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: var(--white);
+  resize: vertical;
+  font-size: 0.95rem;
+  font-family: monospace;
+}
+
+.output {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  color: var(--sky);
+  font-family: monospace;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+.btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid var(--sky);
+  color: var(--sky);
+  cursor: pointer;
+  transition: transform 0.08s ease;
+}
+
+.btn.secondary:hover {
+  transform: translateY(-2px);
+}
+
+.message {
+  color: #6dd17a;
+  display: none;
+  margin-top: 10px;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 16px;
+}
+
+/* Info Section */
+.article-section {
+  max-width: 800px;
+  margin: 50px auto;
+  line-height: 1.7;
+  color: var(--grey);
+}
+
+.article-section h2 {
+  color: var(--white);
+  margin-top: 32px;
+  font-size: 1.4rem;
+}
+
+.article-section ul {
+  margin: 10px 0 20px 20px;
+}
+
+.article-section p {
+  margin-bottom: 12px;
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MD5 Converter — Online Tools</title>
+    <meta name="description"
+        content="Convert text to MD5 hash instantly with live updates. Free online MD5 hash generator tool.">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="../">Online Tools</a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="../#tools">Tools</a></li>
+                    <li><a href="../#categories">Categories</a></li>
+                    <li><a href="../#about">About</a></li>
+                </ul>
+            </nav>
+            <div class="controls">
+                <input class="search" type="search" id="toolSearch" placeholder="Search tools…"
+                    list="autocompleteList" />
+                <datalist id="autocompleteList"></datalist>
+                <button id="menuToggle" class="menu-toggle" aria-label="Toggle Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero container">
+        <h1>MD5 Converter</h1>
+        <p class="lead">Generate MD5 hash of your text instantly with live preview and copy support.</p>
+    </section>
+
+    <section class="container">
+        <div class="card tool-box">
+            <label><strong>Enter Text:</strong></label>
+            <textarea id="inputText" placeholder="Type or paste your text here..." rows="5"></textarea>
+
+            <div class="btn-wrap">
+                <button class="btn secondary" id="copyBtn">Copy Hash</button>
+                <button class="btn secondary" id="clearBtn">Clear</button>
+            </div>
+
+            <label style="margin-top:14px;"><strong>MD5 Hash:</strong></label>
+            <input type="text" id="outputText" class="output" readonly
+                placeholder="Your MD5 hash will appear here automatically" />
+
+            <p class="message" id="copyMsg">Copied to clipboard!</p>
+            <p class="note">Note: The MD5 hash updates live as you type. MD5 is a one-way cryptographic function and
+                cannot be reversed.</p>
+        </div>
+    </section>
+
+    <section class="container article-section">
+        <h2>Introduction</h2>
+        <p>This tool converts your text into an MD5 hash instantly while you type. It uses a pure JavaScript MD5
+            algorithm for complete browser compatibility.</p>
+
+        <h2>What is MD5?</h2>
+        <p>MD5 (Message Digest Algorithm 5) is a widely used cryptographic hash function that produces a 128-bit
+            (32-character) hash value. It’s commonly used to verify data integrity.</p>
+
+        <h2>How to Use?</h2>
+        <ul>
+            <li>Type or paste text in the box above.</li>
+            <li>Your MD5 hash appears live below.</li>
+            <li>Click <strong>Copy Hash</strong> to copy it instantly.</li>
+            <li>Use <strong>Clear</strong> to reset the input.</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+        <p>This MD5 converter is a fast and private hashing tool that works entirely offline. Perfect for developers,
+            students, and cybersecurity learners.</p>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>Online Tools</strong>
+                <div class="muted">© <span id="year"></span> ot.itisuniqueofficial.com</div>
+            </div>
+            <div class="footer-links">
+                <a href="/PRIVACY">Privacy</a>
+                <a href="https://github.com/orgs/iiuo-ot/discussions">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+    <script src="/search.js"></script>
+</body>
+
+</html>
